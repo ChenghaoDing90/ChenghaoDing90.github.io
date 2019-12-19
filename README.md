@@ -1,3 +1,3 @@
 # This is Chenghao Ding's blog.
 
-Enter my blog: **https://chenghaoding90.github.io/alex/**.
+Enter my blog: **https://chenghaoding90.github.io/**.
