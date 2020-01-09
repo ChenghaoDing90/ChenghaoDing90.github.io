@@ -10,10 +10,6 @@ Books
 I have read a series books. Below are some selected books I have finished.
 
 1. Machine Learning, Deep Learning, and Data Science
-  *The Elements of Statistical Learning (ESL)*
-  By Trevor Hastie, Robert Tibshirani, Jerome Friedman
-  Good reference book, need some mathematical background
-
 <ul>
         <li>*The Elements of Statistical Learning (ESL)* <br />
         By Trevor Hastie, Robert Tibshirani, Jerome Friedman Good reference book, need some mathematical background </li>
