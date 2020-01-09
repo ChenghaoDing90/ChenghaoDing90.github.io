@@ -9,6 +9,9 @@ order: 4
 Books
 I have read a series books. Below are some selected books I have finished.
 
-1. Tolkin: *Lord of Rings*
+1. Machine Learning, Deep Learning, and Data Science
+  *The Elements of Statistical Learning (ESL)*
+  By Trevor Hastie, Robert Tibshirani, Jerome Friedman
+  Good reference book, need some mathematical background
 
 source: [GitHub]("https://github.com/chenghaoding90/chenghaoding90.github.io")
