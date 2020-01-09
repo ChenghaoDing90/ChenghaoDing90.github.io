@@ -10,4 +10,4 @@ The textbooks of my articles.
 
 1. Tolkin: *Lord of Rings*
 
-source: [GitHub]("https://github.com/chenghaoding90/alex")
+source: [GitHub]("https://github.com/chenghaoding90")
