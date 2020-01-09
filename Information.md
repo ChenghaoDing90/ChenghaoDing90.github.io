@@ -6,11 +6,16 @@ icon: fa-book
 order: 2
 ---
 
-Education
+<strong>bold</strong>Education
 
-University of Illinois at Urbana-Champaign  May 2021 (expected)
-Ph.D Student in Nuclear Engineering, GPA: 3.50/4.00
+<ul>
+        <liUniversity of Illinois at Urbana-Champaign  May 2021 (expected)
+Ph.D Student in Nuclear Engineering, GPA: 3.50/4.00</li>
+        <li>Master of Science in Applied Statistics May 2020</li>
+        <li>Master of Science in Nuclear Engineering Aug. 2018</li>
+    </ul>
 
-Master of Science in Applied Statistics May 2020
 
-Master of Science in Nuclear Engineering Aug. 2018
+
+
+
