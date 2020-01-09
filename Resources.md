@@ -1,12 +1,13 @@
 ---
-title: Reading List
-subtitle: a list of books I read
+title: Resources
+subtitle: A list of useful resources (books, courses) I have read or taken.
 layout: "page"
 icon: fa-book
 order: 4
 ---
 
-The textbooks of my articles.
+Books
+I have read a series books. Below are some selected books I have finished.
 
 1. Tolkin: *Lord of Rings*
 
