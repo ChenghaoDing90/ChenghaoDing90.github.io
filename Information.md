@@ -22,6 +22,15 @@ order: 2
     </ul>
 
 
+<strong>Skills</strong>
 
-
-
+<ul>
+        <li>Programming:
+        Python (proficient), R, TensorFlow, Keras, MATLAB, SQL</li>
+        <li>Platform:
+        Hadoop, Spark, Linux/UNIX, Amazon Web Service</li>
+        <li>Data Science: 
+        Numpy, Pandas, Scikit-learn, Matplotlib, Seaborn, CatBoost, LightGBM, XGBoost</li>
+        <li>Machine Learning: 
+        Predictive Modeling, Computer Vision, Recommender Systems</li>
+    </ul>
