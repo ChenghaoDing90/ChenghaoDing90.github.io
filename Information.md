@@ -5,6 +5,8 @@ layout: "page"
 icon: fa-book
 order: 2
 ---
-Education
+
+title: Education
+
 University of Illinois at Urbana-Champaign August 16-Present
 Ph.D Student in Nuclear Engineering GPA: 3.50/4.00
