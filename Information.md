@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-<strong>bold</strong>Education
+<strong>Education</strong>
 
 <ul>
         <liUniversity of Illinois at Urbana-Champaign  May 2021 (expected)
