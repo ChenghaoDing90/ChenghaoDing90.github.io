@@ -3,7 +3,7 @@ title: Information
 subtitle: Chenghao Ding <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf> (Click to download my resume)</a>
 layout: "page"
 icon: fa-book
-order: 3
+order: 2
 ---
 Education
 University of Illinois at Urbana-Champaign August 16-Present
