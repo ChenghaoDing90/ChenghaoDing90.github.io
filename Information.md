@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-title: Education
+Education
 
 University of Illinois at Urbana-Champaign  May 2021 (expected)
 Ph.D Student in Nuclear Engineering, GPA: 3.50/4.00
