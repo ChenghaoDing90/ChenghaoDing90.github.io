@@ -1,6 +1,6 @@
 ---
 title: Information
-subtitle: Chenghao Ding <a href=https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing21.pdf> (Click to download my resume)</a>
+subtitle: Chenghao Ding <a href=https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing.pdf> (Click to download my resume)</a>
 layout: "page"
 icon: fa-book
 order: 2
@@ -10,7 +10,7 @@ order: 2
 
 <ul>
         <li>Ph.D Student in Nuclear Engineering, GPA: 3.51/4.00 <br />
-        University of Illinois at Urbana-Champaign  May 2021 (expected) </li>
+        University of Illinois at Urbana-Champaign  Jul 2021 (expected) </li>
         <li>Master of Science in Applied Statistics, GPA: 3.61/4.00 <br />
         University of Illinois at Urbana-Champaign  May 2020 (expected)</li>
         <li>Master of Science in Nuclear Engineering, GPA: 3.62/4.00 <br />
