@@ -1,6 +1,6 @@
 ---
 title: Information
-subtitle: Chenghao Ding <a href=https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing.pdf> (Click to download my resume)</a>
+subtitle: Chenghao Ding <a href=https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing21.pdf> (Click to download my resume)</a>
 layout: "page"
 icon: fa-book
 order: 2
