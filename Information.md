@@ -37,23 +37,23 @@ order: 2
 <ul>
 <li> Computer Science, Machine Learning, and Data Science
         <ul>
-         <li> STAT 542: Statistical Learning
-         <li> STAT 578: Statistical Learning in Data Science
+         <li> STAT 542: Statistical Learning</li>
+         <li> STAT 578: Statistical Learning in Data Science</li>
          </ul>
 <li> Statistics
           <ul>
-          <li>STAT 400: Statistics and Probability I
-          <li>STAT 410: Statistics and Probability II
-          <li>STAT 425: Applied Regression and Design  
-          <li>STAT 429: Time Series Analysis
-          <li>NPRE 498: Probabilistic Risk Assessment
-          <li>NPRE 598: Advanced Risk Analysis
+          <li>STAT 400: Statistics and Probability I</li>
+          <li>STAT 410: Statistics and Probability II</li>
+          <li>STAT 425: Applied Regression and Design</li>
+          <li>STAT 429: Time Series Analysis</li>
+          <li>NPRE 498: Probabilistic Risk Assessment</li>
+          <li>NPRE 598: Advanced Risk Analysis</li>
           </ul>
  <li> Online Courses
           <ul>
-          <li>deeplearning.ai: Deep Learning Specialization
-          <li>Stanford University: Machine Learning
-          <li>Princeton University: Algorithms, Part 1
+          <li>deeplearning.ai: Deep Learning Specialization</li>
+          <li>Stanford University: Machine Learning</li>
+          <li>Princeton University: Algorithms, Part 1</li>
           </ul>
 </ul>   
 
