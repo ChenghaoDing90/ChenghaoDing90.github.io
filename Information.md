@@ -39,6 +39,14 @@ Computer Science, Machine Learning, and Data Science
          <li> STAT 542: Statistical Learning
          <li> STAT 578: Statistical Learning in Data Science
 Statistics
-          <li> STAT 542: Statistical Learning       
+          <li>STAT 400: Statistics and Probability I
+          <li>STAT 410: Statistics and Probability II
+          <li>STAT 425: Applied Regression and Design  
+          <li>STAT 429: Time Series Analysis
+          <li>NPRE 498: Probabilistic Risk Assessment
+          <li>NPRE 598: Advanced Risk Analysis
+Online Courses
+          <li>deeplearning.ai: Deep Learning Specialization     
+                  
 <!--- For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.--->
 For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf.html).
