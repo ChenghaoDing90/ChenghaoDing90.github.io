@@ -29,7 +29,7 @@ I have read a series books. Below are some selected books I have finished.
 </ul>    
 
 <ul>
-        <li>Deep Learning <a href="https://www.deeplearningbook.org">(link)</a>
+        <li>Deep Learning with Python
         <ul>
         <li>By François Chollet</li>
         <li>Very practical book for deep learning with Keras. Strongly suggested</li>
