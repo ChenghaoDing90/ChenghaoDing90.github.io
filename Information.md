@@ -39,10 +39,9 @@ order: 2
         <ul>
          <li> STAT 542: Statistical Learning</li>
          <li> STAT 578: Statistical Learning in Data Science</li>
-         </ul>
-</ul>
+        </ul>
+</li>
 
-<ul>
 <li> Statistics
           <ul>
           <li>STAT 400: Statistics and Probability I</li>
@@ -52,15 +51,15 @@ order: 2
           <li>NPRE 498: Probabilistic Risk Assessment</li>
           <li>NPRE 598: Advanced Risk Analysis</li>
           </ul>
-</ul>
+</li>
 
-<ul>
- <li> Online Courses
+<li> Online Courses
           <ul>
           <li>deeplearning.ai: Deep Learning Specialization</li>
           <li>Stanford University: Machine Learning</li>
           <li>Princeton University: Algorithms, Part 1</li>
           </ul>
+</li>
 </ul>   
 
 
