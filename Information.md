@@ -20,7 +20,7 @@ order: 2
     </ul>
 
 
-<strong>Skills</strong>
+# Skills
 
 <ul>
         <li>Programming: <br />
@@ -33,7 +33,7 @@ order: 2
         Predictive Modeling, Computer Vision, Recommender Systems</li>
     </ul>
     
-<strong>Selected Courses</strong>
+# Selected Courses
 
 <!--- For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.--->
 For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf.html).
