@@ -23,15 +23,17 @@ order: 2
 <strong>Skills</strong>
 
 <ul>
-        <li>Programming:
+        <li>Programming: <br />
         Python (proficient), R, TensorFlow, Keras, MATLAB, SQL</li>
-        <li>Platform:
+        <li>Platform: <br />
         Hadoop, Spark, Linux/UNIX, Amazon Web Service</li>
-        <li>Data Science: 
+        <li>Data Science:  <br />
         Numpy, Pandas, Scikit-learn, Matplotlib, Seaborn, CatBoost, LightGBM, XGBoost</li>
-        <li>Machine Learning: 
+        <li>Machine Learning:  <br />
         Predictive Modeling, Computer Vision, Recommender Systems</li>
     </ul>
+    
+<strong>Selected Courses</strong>
 
 <!--- For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.--->
 For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf.html).
