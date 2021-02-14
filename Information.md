@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-<strong>Education</strong>
+# Education
 
 <ul>
         <li>Ph.D Student in Nuclear Engineering, GPA: 3.51/4.00 <br />
