@@ -35,18 +35,27 @@ order: 2
     
 # Selected Courses
 <ul>
-Computer Science, Machine Learning, and Data Science
+<li> Computer Science, Machine Learning, and Data Science
+        <ul>
          <li> STAT 542: Statistical Learning
          <li> STAT 578: Statistical Learning in Data Science
-Statistics
+         </ul>
+<li> Statistics
+          <ul>
           <li>STAT 400: Statistics and Probability I
           <li>STAT 410: Statistics and Probability II
           <li>STAT 425: Applied Regression and Design  
           <li>STAT 429: Time Series Analysis
           <li>NPRE 498: Probabilistic Risk Assessment
           <li>NPRE 598: Advanced Risk Analysis
-Online Courses
-          <li>deeplearning.ai: Deep Learning Specialization     
-                  
+          </ul>
+ <li> Online Courses
+          <ul>
+          <li>deeplearning.ai: Deep Learning Specialization
+          <li>Stanford University: Machine Learning
+          <li>Princeton University: Algorithms, Part 1
+          </ul>
+</ul>   
+
 <!--- For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.--->
 For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf.html).
