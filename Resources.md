@@ -6,12 +6,12 @@ icon: fa-book
 order: 4
 ---
 
-Books
+#Books<br/>
 I have read a series books. Below are some selected books I have finished.
 
 1. Machine Learning, Deep Learning, and Data Science
 <ul>
-        <li>The Elements of Statistical Learning (ESL) <br />
+        <li>[The Elements of Statistical Learning (ESL)](https://web.stanford.edu/~hastie/ElemStatLearn/) <br />
         By Trevor Hastie, Robert Tibshirani, Jerome Friedman Good reference book, need some mathematical background </li>
     </ul>
 
