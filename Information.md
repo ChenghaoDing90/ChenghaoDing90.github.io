@@ -40,6 +40,9 @@ order: 2
          <li> STAT 542: Statistical Learning</li>
          <li> STAT 578: Statistical Learning in Data Science</li>
          </ul>
+</ul>
+
+<ul>
 <li> Statistics
           <ul>
           <li>STAT 400: Statistics and Probability I</li>
@@ -49,6 +52,9 @@ order: 2
           <li>NPRE 498: Probabilistic Risk Assessment</li>
           <li>NPRE 598: Advanced Risk Analysis</li>
           </ul>
+</ul>
+
+<ul>
  <li> Online Courses
           <ul>
           <li>deeplearning.ai: Deep Learning Specialization</li>
