@@ -6,7 +6,7 @@ icon: fa-book
 order: 2
 ---
 
-<b>Education</b>
+# Education
 
 <ul>
         <li>Ph.D Student in Nuclear Engineering, GPA: 3.51/4.00 <br />
@@ -34,6 +34,11 @@ order: 2
     </ul>
     
 # Selected Courses
-
+<ul>
+Computer Science, Machine Learning, and Data Science
+         <li> STAT 542: Statistical Learning
+         <li> STAT 578: Statistical Learning in Data Science
+Statistics
+          <li> STAT 542: Statistical Learning       
 <!--- For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.--->
 For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf.html).
