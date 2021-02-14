@@ -19,3 +19,29 @@ I have read a series books. Below are some selected books I have finished.
         </li> 
 </ul>      
                 
+<ul>
+        <li>Deep Learning <a href="https://www.deeplearningbook.org">(link)</a>
+        <ul>
+        <li>By Ian Goodfellow, Yoshua Bengio, Aaron Courville</li>
+        <li>Good reference book</li>
+        </ul>
+        </li> 
+</ul>    
+
+<ul>
+        <li>Deep Learning <a href="https://www.deeplearningbook.org">(link)</a>
+        <ul>
+        <li>By François Chollet</li>
+        <li>Very practical book for deep learning with Keras. Strongly suggested</li>
+        </ul>
+        </li> 
+</ul> 
+
+<ul>
+        <li>Data Mining: Concepts and Techniques
+        <ul>
+        <li>By Jiawei Han, Micheline Kamber, Jian Pei</li>
+        <li>A very detailed tutorial and practical hands-on experiment on data mining. Strongly suggested</li>
+        </ul>
+        </li> 
+</ul>
