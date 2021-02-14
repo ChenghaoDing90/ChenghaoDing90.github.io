@@ -15,4 +15,7 @@ I have read a series books. Below are some selected books I have finished.
         <ul>
         <li>By Trevor Hastie, Robert Tibshirani, Jerome Friedman</li>
         <li>Good reference book, need some mathematical background</li>
-</ul>
+        </ul>
+        </li> 
+</ul>      
+                
