@@ -63,5 +63,5 @@ order: 2
 </ul>   
 
 
-For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/Resume-Chenghao-Ding.pdf>resume</a>.
+For more details, please refer to my <a href=https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing.pdf>resume</a>.
 <!--- For more details, please refer to my [resume]([https://chenghaoding90.github.io/assets/pdfs/ChenghaoDing.pdf.html).--->
