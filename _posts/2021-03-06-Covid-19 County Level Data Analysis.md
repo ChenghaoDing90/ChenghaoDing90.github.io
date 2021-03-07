@@ -11,3 +11,52 @@ At first, to give a simple understanding, we perform the covid-19 growing patter
 According to the clusters, we find cases and health resource are highly affected by the economic situation of a county. Comparing to them, deaths and demographics do not show any obvious regional characteristics and scatter throughout the country. The classification performs well and can give identify most counties with
 high death rate.
 According to the coefficients of the regression model, we conclude that the the population and population density makes their death toll rise even faster in the county. People over 85 with heart disease are more vulnerable to this virus. Comparing to male, female are more vulnerable. It is helpful for reducing the deaths to provide adequate medical resource, such as a hospital. However, because of the population base, age density and gender density are related to social situation in this area, we think the analysis of vulnerable poeple are affected.
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/cluster.png" width="800" height="800">
+  <div class="figcaption"><br> cluster.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/cluster2.png" width="800" height="800">
+  <div class="figcaption"><br> clus.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/cluster3.png" width="800" height="800">
+  <div class="figcaption"><br> The sample images.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/feature_importance.png" width="800" height="800">
+  <div class="figcaption"><br> The sample images.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/stepwise.png" width="800" height="800">
+  <div class="figcaption"><br> Stepwise model.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/GAM.png" width="800" height="800">
+  <div class="figcaption"><br> The sample images.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/random_forest.png" width="800" height="800">
+  <div class="figcaption"><br> The sample images.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/gradient_boosting.png" width="800" height="800">
+  <div class="figcaption"><br> The sample images.<br>
+  </div>
+</div>
+
