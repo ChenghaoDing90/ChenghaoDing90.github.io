@@ -25,37 +25,37 @@ According to the coefficients of the regression model, we conclude that the the 
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/cluster3.PNG" width="800" height="800">
+  <img src="/assets/images/cluster3.PNG" width="800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/feature_importance.PNG" width="800" height="800">
+  <img src="/assets/images/feature_importance.PNG" width="800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/stepwise.PNG" width="800" height="800">
+  <img src="/assets/images/stepwise.PNG" width="800" height="400">
   <div class="figcaption"><br> Stepwise model.<br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/GAM.PNG" width="800" height="800">
+  <img src="/assets/images/GAM.PNG" width="800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/random_forest.PNG" width="800" height="800">
+  <img src="/assets/images/random_forest.PNG" width="800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/gradient_boosting.PNG" width="800" height="800">
+  <img src="/assets/images/gradient_boosting.PNG" width="800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
