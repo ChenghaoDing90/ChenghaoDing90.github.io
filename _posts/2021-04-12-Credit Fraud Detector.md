@@ -1,11 +1,11 @@
 ---
-title: CIFAR-10-Object Recognition in Images
+title: Credit Card Fraud Detection
 author: Chenghao Ding
 layout: post
 comments: true
 ---
 
-# CIFAR-10-Object Recognition in Images
+# Credit Card Fraud Detection
 
 * Question: Identify the subject of 60,000 labeled images?
 
