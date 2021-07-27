@@ -10,7 +10,7 @@ comments: true
 * Question: Identify the subject of 60,000 labeled images?
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/trans.png" width="1800" height="400">
+  <img src="/assets/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
@@ -32,7 +32,7 @@ Pre-trained VGG16 and VGG19 are included in Keras, here, I build a VGG-like CNN 
 Here is the screenshot of the output of model.summary().
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/normss.png" width="1800" height="400">
+  <img src="/assets/images/normss.png" width="1200" height="300">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
