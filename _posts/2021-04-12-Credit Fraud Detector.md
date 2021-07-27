@@ -10,7 +10,7 @@ comments: true
 * Question: Identify the subject of 60,000 labeled images?
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/trans.png" width="800" height="800">
+  <img src="/assets/images/trans.png" width="1800" height="400">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
@@ -32,35 +32,7 @@ Pre-trained VGG16 and VGG19 are included in Keras, here, I build a VGG-like CNN 
 Here is the screenshot of the output of model.summary().
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/normss.png" width="800" height="800">
+  <img src="/assets/images/normss.png" width="1800" height="400">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
-
-### VGG loss and accuracy versus training epochs
-
-<div class="fig figcenter fighighlight">
-  <img src="/assets/images/vgg_loss.png" width="800" height="400">
-  <div class="figcaption"><br> Results of VGG Model.<br>
-  </div>
-</div>
-
-
-## ResNet
-
-The ResNet structure was re-implemented in Python. 
-### ResNet loss and accuracy versus training epochs
-
-<div class="fig figcenter fighighlight">
-  <img src="/assets/images/resnet_loss.png" width="800" height="400">
-  <div class="figcaption"><br> Results of ResNet Model.<br>
-  </div>
-</div>
-
-The training/validation loss and accuracy versus training epochs are shown below. After 200 epochs, the test accuracy is around 0.90840. But looking carefully, after epoch 75, the training loss is still dropping while testing loss do not get any better since then. So the model seems to overfit.
-
-
-
-
-
-
