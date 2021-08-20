@@ -41,7 +41,7 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 
 On one hand, this figure shows that almost all of transaction records are non-fraud, while only 0.17% are actually fraudulent. On the other hand, the transaction amount is also significantly imbalanced with most of the amount very small. In fact, the mean of all the mounts made is approximately USD 88.
 
-2. Preparing dataset
+#### 2. Preparing dataset
 Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
 
 </div><div class="fig figcenter fighighlight">
@@ -50,7 +50,7 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
   </div>
 </div>
 
-3. Observe Correlation of Features
+#### 3. Observe Correlation of Features
 It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
@@ -69,7 +69,7 @@ We find that V17, V14, V12 and V10 are negatively correlated. Notice how the low
 
 However, we also find that some of the features like V10 has a lot of outliers observed in the box plots. Thus, this might suggest that remove those outliers to avoid mess up.
 
-4. Anomaly Detection
+#### 4. Anomaly Detection
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="600" height="300">
   <div class="figcaption"><br>
