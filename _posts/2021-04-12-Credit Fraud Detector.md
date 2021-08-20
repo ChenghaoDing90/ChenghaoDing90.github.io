@@ -28,7 +28,7 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 1. Understanding our data
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/class-dist-plot.png" width="600" height="300">
+  <img src="/assets/images/class-dist-plot.png" width="400" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -45,7 +45,7 @@ On one hand, this figure shows that almost all of transaction records are non-fr
 Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/afterEqualRatio.png" width="1200" height="300">
+  <img src="/assets/images/afterEqualRatio.png" width="600" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
