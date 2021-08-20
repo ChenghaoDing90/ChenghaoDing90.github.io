@@ -25,12 +25,13 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 </ul>
 
 ### Data Analysis
+1. Understanding our data
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br> The sample images.<br>
   </div>
 </div>
-Here is the screenshot of the output of model.summary().
+This figure shows that almost all of transaction records are non-fraud, while only 0.17% are actually fraudulent.
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
