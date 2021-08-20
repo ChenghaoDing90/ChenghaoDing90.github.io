@@ -69,6 +69,7 @@ We find that V17, V14, V12 and V10 are negatively correlated. Notice how the low
 
 However, we also find that some of the features like V10 has a lot of outliers observed in the box plots. Thus, this might suggest that remove those outliers to avoid mess up.
 
+4. Anomaly Detection
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
   <div class="figcaption"><br>
