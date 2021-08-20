@@ -70,6 +70,7 @@ We find that V17, V14, V12 and V10 are negatively correlated. Notice how the low
 However, we also find that some of the features like V10 has a lot of outliers observed in the box plots. Thus, this might suggest that remove those outliers to avoid mess up.
 
 #### 4. Anomaly Detection
+To remove "extreme outliers" from features that have a high correlation with our classes, interquartile Range Method (IQR) is used.
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="800" height="200">
   <div class="figcaption"><br>
@@ -78,25 +79,34 @@ However, we also find that some of the features like V10 has a lot of outliers o
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ_good.png" width="800" height="200">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br> 
+  </div>
+</div>
+
+From the plot, V10, V12, V14 outliers are reduced significantly. This will alleviate the distortions of distribution made by those outliers and make a better fit.
+
+#### 5. Dimensionality Reduction and Clustering
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/dimen_reduce.png" width="1200" height="300">
+  <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/actual_cm.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/actual_cmNeural.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br>
   </div>
   
 
@@ -105,15 +115,11 @@ However, we also find that some of the features like V10 has a lot of outliers o
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/confuse.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br>
   </div>
 </div>
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/dimen_reduce.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
+
 
 
 
@@ -125,7 +131,7 @@ However, we also find that some of the features like V10 has a lot of outliers o
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/overSamp.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br> 
   </div>
 </div>
 
@@ -133,6 +139,6 @@ However, we also find that some of the features like V10 has a lot of outliers o
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/undersample_cm.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  <div class="figcaption"><br> 
   </div>
 </div>
