@@ -45,12 +45,13 @@ On one hand, this figure shows that almost all of transaction records are non-fr
 Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/afterEqualRatio.png" width="600" height="300">
+  <img src="/assets/images/afterEqualRatio.png" width="500" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
 
 3. Observe Correlation of Features
+It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/featureCorrelationNegative.png" width="1200" height="300">
@@ -64,6 +65,7 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
   </div>
 </div>
 
+We find that V17, V14, V12 and V10 are negatively correlated. Notice how the lower these values are, the more likely the end result will be a fraud transaction. Positive Correlations: V2, V4, V11, and V19 are positively correlated. Notice how the higher these values are, the more likely the end result will be a fraud transaction.
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
