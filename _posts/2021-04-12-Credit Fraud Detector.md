@@ -54,13 +54,13 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
 It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationNegative.png" width="600" height="300">
+  <img src="/assets/images/featureCorrelationNegative.png" width="600" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPostive.png" width="600" height="300">
+  <img src="/assets/images/featureCorrelationPostive.png" width="600" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -77,7 +77,7 @@ However, we also find that some of the features like V10 has a lot of outliers o
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ_good.png" width="800" height="100">
+  <img src="/assets/images/IRQ_good.png" width="800" height="200">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
