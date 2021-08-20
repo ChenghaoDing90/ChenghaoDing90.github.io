@@ -42,7 +42,29 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 On one hand, this figure shows that almost all of transaction records are non-fraud, while only 0.17% are actually fraudulent. On the other hand, the transaction amount is also significantly imbalanced with most of the amount very small. In fact, the mean of all the mounts made is approximately USD 88.
 
 2. Preparing dataset
-Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, 
+Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/aferEqualRatio.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+3. Observe Correlation of Features
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/featureCorrelationNegative.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/featureCorrelationPositive.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
   <div class="figcaption"><br>
@@ -72,11 +94,7 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
   
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/aferEqualRatio.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
+
 
 
 
@@ -92,17 +110,7 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
   </div>
 </div>
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationNegative.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPositive.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/fitresult.png" width="1200" height="300">
