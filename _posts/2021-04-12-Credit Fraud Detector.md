@@ -86,12 +86,16 @@ To remove "extreme outliers" from features that have a high correlation with our
 From the plot, V10, V12, V14 outliers are reduced significantly. This will alleviate the distortions of distribution made by those outliers and make a better fit.
 
 #### 5. Dimensionality Reduction and Clustering
+
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/dimen_reduce.png" width="1200" height="300">
+  <img src="/assets/images/dimen_reduce.png" width="1200" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
+The t-SNE is compared with another two different clustering methods, i.e. PCA and Truncated SVD. We find that t-SNE can do a very good job in identifying the non-fraud versus fraud.
+
+### Classifiers and Model Training
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
   <div class="figcaption"><br>
