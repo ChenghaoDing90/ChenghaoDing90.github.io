@@ -26,6 +26,13 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 
 ### Data Analysis
 1. Understanding our data
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/class-dist-plot.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br> The sample images.<br>
@@ -68,11 +75,7 @@ This figure shows that almost all of transaction records are non-fraud, while on
   </div>
 </div>
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/class-dist-plot.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
+
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/confuse.png" width="1200" height="300">
