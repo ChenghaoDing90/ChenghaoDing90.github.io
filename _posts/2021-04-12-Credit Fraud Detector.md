@@ -7,7 +7,7 @@ comments: true
 
 # Credit Card Fraud Detection
 
-* Question: Identify the fradulant transactions from a huge imbalanced data?
+* Question: Identify the fraudulent credit card transactions from a huge imbalanced data?
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/trans.png" width="1200" height="300">
@@ -23,8 +23,12 @@ There are in total 28 features are found after using PCA transformation, however
 Among those 28 features, 'time' and 'Amount' are the most significant two. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 The whole project can be found in my GitHub: <a href="https://github.com/ChenghaoDing90/CreditCardFraudDetection">(CreditCardFraudDetection)</a>.
 
-## VGG
-Pre-trained VGG16 and VGG19 are included in Keras, here, I build a VGG-like CNN models for object recognition.
+## Objective
+<ul>
+      <li>Find the how is the imbalanced data skewed and how to make them 'balanced' in terms of having a similar amount of "Fraud" and "Non-Fraud" transactions. </li>
+      <li>Find a Classifiers that has a higher accuracy of identifying "Fraud" transactions.</a>  </li>
+      <li>Create a Neural Network and compare the accuracy to our best classifier.</li>
+</ul>
 
 ### Data Analysis
 
