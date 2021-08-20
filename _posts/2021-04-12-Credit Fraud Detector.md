@@ -32,7 +32,90 @@ Pre-trained VGG16 and VGG19 are included in Keras, here, I build a VGG-like CNN 
 Here is the screenshot of the output of model.summary().
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/normss.png" width="1200" height="300">
+  <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/IRQ_good.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/actual_cm.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/images/actual_cmNeural.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+  
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/aferEqualRatio.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/class-dist-plot.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/confuse.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/dimen_reduce.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/featureCorrelationNegative.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/featureCorrelationPositive.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/fitresult.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/overSamp.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/trans.png" width="1200" height="300">
+  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+  </div>
+</div>
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/assets/images/undersample_cm.png" width="1200" height="300">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
