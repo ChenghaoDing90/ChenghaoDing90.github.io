@@ -65,7 +65,9 @@ It is important to know if there is any feature have very clear positive or nega
   </div>
 </div>
 
-We find that V17, V14, V12 and V10 are negatively correlated. Notice how the lower these values are, the more likely the end result will be a fraud transaction. Positive Correlations: V2, V4, V11, and V19 are positively correlated. Notice how the higher these values are, the more likely the end result will be a fraud transaction.
+We find that V17, V14, V12 and V10 are negatively correlated. Notice how the lower these values are, the more likely the end result will be a fraud transaction. Positive Correlations: V2, V4, V11, and V19 are positively correlated. Notice how the higher these values are, the more likely the end result will be a fraud transaction.<br />
+
+However, we also find that some of the features like V10 has a lot of outliers observed in the box plots. Thus, this might suggest that remove those outliers to avoid mess up.
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/IRQ-mod-Norm.png" width="1200" height="300">
