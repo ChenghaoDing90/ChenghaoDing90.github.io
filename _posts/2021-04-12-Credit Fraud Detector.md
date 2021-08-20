@@ -7,7 +7,7 @@ comments: true
 
 # Credit Card Fraud Detection
 
-* Question: Identify the subject of 60,000 labeled images?
+* Question: Identify the fradulant transactions from a huge imbalanced data?
 
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/trans.png" width="1200" height="300">
@@ -15,19 +15,18 @@ comments: true
   </div>
 </div>
 
-CIFAR-10  is an established computer-vision dataset used for object recognition. It is a subset of the 80 million tiny images dataset and consists of 60,000 32x32 color images containing one of 10 object classes, with 6000 images per class. The whole project can be found in my GitHub: <a href="https://github.com/ChenghaoDing90/CIFAR10">(CIFAR10)</a>.
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. Online shopping is on the rise as more of us stay at home and let our credit cards do the walking. Keeping pace with that trend is an unfortunate increase in credit card fraud. It’s no surprise that online fraud has been a growing problem for the past few years. And now, as consumers and businesses adapt to the worldwide pandemic and make more credit card transactions in the card-not-present (CNP) space, the resulting uptick in online shopping and ecommerce has opened up an even bigger playground for fraudsters to try out new tricks. 
 
 ## Data Description
-The CIFAR-10 data consists of 60,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images in the official data. There are 10 different lables in this dataset, such as: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck. The first 36 images is shown above.
-
-The datasets are separated into train( of size 50000), validation(10000), and test datasets(300000) respectively.
-
-In this project, two commonly used CNN models: VGG and ResNet is implemented.
+The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+There are in total 28 features are found after using PCA transformation, however, due to privacy issues, the real backgroud information is hided.
+Among those 28 features, 'time' and 'Amount' are the most significant two. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+The whole project can be found in my GitHub: <a href="https://github.com/ChenghaoDing90/CreditCardFraudDetection">(CreditCardFraudDetection)</a>.
 
 ## VGG
 Pre-trained VGG16 and VGG19 are included in Keras, here, I build a VGG-like CNN models for object recognition.
 
-### Visualization of VGG model
+### Data Analysis
 
 Here is the screenshot of the output of model.summary().
 
@@ -108,11 +107,7 @@ Here is the screenshot of the output of model.summary().
   </div>
 </div>
 
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/trans.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
-  </div>
-</div>
+
 
 </div><div class="fig figcenter fighighlight">
   <img src="/assets/images/undersample_cm.png" width="1200" height="300">
