@@ -54,13 +54,13 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
 It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationNegative.png" width="600" height="200">
+  <img src="/assets/images/featureCorrelationNegative.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPostive.png" width="600" height="200">
+  <img src="/assets/images/featureCorrelationPostive.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
