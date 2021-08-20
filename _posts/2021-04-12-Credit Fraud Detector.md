@@ -71,13 +71,13 @@ However, we also find that some of the features like V10 has a lot of outliers o
 
 #### 4. Anomaly Detection
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ-mod-Norm.png" width="600" height="300">
+  <img src="/assets/images/IRQ-mod-Norm.png" width="800" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ_good.png" width="600" height="300">
+  <img src="/assets/images/IRQ_good.png" width="800" height="100">
   <div class="figcaption"><br> Summary of VGG Model Building.<br>
   </div>
 </div>
