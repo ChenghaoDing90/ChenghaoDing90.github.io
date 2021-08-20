@@ -59,7 +59,7 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPositive.png" width="1200" height="300">
+  <img src="/assets/images/featureCorrelationPostive.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
