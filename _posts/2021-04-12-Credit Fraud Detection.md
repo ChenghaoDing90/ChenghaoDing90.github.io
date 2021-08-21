@@ -101,14 +101,14 @@ Therefore, Near-Miss algorithm is used during cross validation to see how it dis
 For the training dataset, Logistic regression gets the highest accuracy score of 95.4%, and decision tree is the worst. Then, the trained model has been applied to validation data, and apparently the validation score keeps growing. This suggests that an overfitting issue is resolved.<br />
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/fitresult.png" width="1200" height="500">
+  <img src="/assets/images/fitresult.png" width="800" height="500">
   <div class="figcaption"><br>
   </div>
 </div>
 
 This figure shows the ROC score of four different classifiers we used. Among the four classifiers, logistic regression has the best accuracy score of 0.9792.
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/ROCfitresult.png" width="1200" height="500">
+  <img src="/assets/images/ROCfitresult.png" width="800" height="500">
   <div class="figcaption"><br>
   </div>
 </div>
