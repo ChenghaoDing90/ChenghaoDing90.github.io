@@ -116,14 +116,14 @@ This figure shows the ROC score of four different classifiers we used. Among the
 However, we find that under sampling Average Precision-Recall Score on the original test set is 0.11. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/underSample.png" width="1200" height="500">
+  <img src="/assets/images/underSample.png" width="800" height="500">
   <div class="figcaption"><br> 
   </div>
 </div>
 
 Next step, I am going to try the Over-Sampling method as known as SMOTE technique. SMOTE creates synthetic points from the minority class in order to reach an equal balance between the minority and majority class. SMOTE picks the distance between the closest neighbors of the minority class, in between these distances it creates synthetic points.
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/overSamp.png" width="1200" height="300">
+  <img src="/assets/images/overSamp.png" width="800" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
