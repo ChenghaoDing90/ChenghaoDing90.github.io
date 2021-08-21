@@ -108,7 +108,7 @@ For the training dataset, Logistic regression gets the highest accuracy score of
 
 This figure shows the ROC score of four different classifiers we used. Among the four classifiers, logistic regression has the best accuracy score of 0.9792.
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
+  <img src="/assets/images/ROCfitresult.png" width="1200" height="500">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -116,7 +116,7 @@ This figure shows the ROC score of four different classifiers we used. Among the
 However, we find that under sampling Average Precision-Recall Score on the original test set is 0.11. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/underSample.png" width="1200" height="300">
+  <img src="/assets/images/underSample.png" width="1200" height="500">
   <div class="figcaption"><br> 
   </div>
 </div>
@@ -130,7 +130,7 @@ Next step, I am going to try the Over-Sampling method as known as SMOTE techniqu
 From this figure, we find that the over sampling method indeed gets a much higher average precision recall score of 0.74 on the original test set, although it takes longer to train model because we are not removing any majority class information while instead add more minority class to balance the data.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/confuse.png" width="1200" height="300">
+  <img src="/assets/images/confuse.png" width="1200" height="500">
   <div class="figcaption"><br>
   </div>
 </div>
