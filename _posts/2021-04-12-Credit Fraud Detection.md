@@ -27,13 +27,13 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 #### 1. Understanding our data
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/images/class-dist-plot.png" width="400" height="300">
+  <img src="/assets/images/class-dist-plot.png" width="400" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/images/trans.png" width="1200" height="300">
+  <img src="/assets/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
