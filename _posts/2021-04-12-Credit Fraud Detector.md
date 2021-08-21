@@ -6,8 +6,7 @@ comments: true
 ---
 
 # Credit Card Fraud Detection
-
-* Question: Identify the fraudulent credit card transactions from a huge imbalanced data?
+### Question: Identify the fraudulent credit card transactions from a huge imbalanced data?
 
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. Online shopping is on the rise as more of us stay at home and let our credit cards do the walking. Keeping pace with that trend is an unfortunate increase in credit card fraud. It’s no surprise that online fraud has been a growing problem for the past few years. And now, as consumers and businesses adapt to the worldwide pandemic and make more credit card transactions in the card-not-present (CNP) space, the resulting uptick in online shopping and ecommerce has opened up an even bigger playground for fraudsters to try out new tricks. 
 
@@ -28,13 +27,13 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 #### 1. Understanding our data
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/class-dist-plot.png" width="400" height="300">
+  <img src="/images/class-dist-plot.png" width="400" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/trans.png" width="1200" height="300">
+  <img src="/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -45,7 +44,7 @@ On one hand, this figure shows that almost all of transaction records are non-fr
 Before make a sub-sample of datasets, split the datasets into train data(80%) and test data(20%). Then, random under sampling technique is used to create a more balanced dataset and thus avoiding our models to overfitting. In more details, a 50/50 ratio subset is created with 492 cases of fraud and 492 cases of non-fraud transactions.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/afterEqualRatio.png" width="500" height="300">
+  <img src="/images/afterEqualRatio.png" width="500" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -54,13 +53,13 @@ Before make a sub-sample of datasets, split the datasets into train data(80%) an
 It is important to know if there is any feature have very clear positive or negative correlations with our classification.
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationNegative.png" width="1000" height="200">
+  <img src="/images/featureCorrelationNegative.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/featureCorrelationPostive.png" width="1000" height="200">
+  <img src="/images/featureCorrelationPostive.png" width="1000" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -72,13 +71,13 @@ However, we also find that some of the features like V10 has a lot of outliers o
 #### 4. Anomaly Detection
 To remove "extreme outliers" from features that have a high correlation with our classes, interquartile Range Method (IQR) is used.
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ-mod-Norm.png" width="800" height="200">
+  <img src="/images/IRQ-mod-Norm.png" width="800" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/IRQ_good.png" width="800" height="200">
+  <img src="/images/IRQ_good.png" width="800" height="200">
   <div class="figcaption"><br> 
   </div>
 </div>
@@ -88,61 +87,69 @@ From the plot, V10, V12, V14 outliers are reduced significantly. This will allev
 #### 5. Dimensionality Reduction and Clustering
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/dimen_reduce.png" width="1200" height="200">
+  <img src="/images/dimen_reduce.png" width="1200" height="200">
   <div class="figcaption"><br>
   </div>
 </div>
 
 The t-SNE is compared with another two different clustering methods, i.e. PCA and Truncated SVD. We find that t-SNE can do a very good job in identifying the non-fraud versus fraud.
 
-### Classifiers and Model Training
-<div class="fig figcenter fighighlight">
-  <img src="/assets/images/ROCfitresult.png" width="1200" height="300">
-  <div class="figcaption"><br>
-  </div>
-</div>
-
-<div class="fig figcenter fighighlight">
-  <img src="/assets/images/actual_cm.png" width="1200" height="300">
-  <div class="figcaption"><br>
-  </div>
-</div>
-
-<div class="fig figcenter fighighlight">
-  <img src="/assets/images/actual_cmNeural.png" width="1200" height="300">
-  <div class="figcaption"><br>
-  </div>
-  
-
-
-
+### Classifiers (UnderSampling & OverSampling) and Model Training
+In order to find a best classifier to identify fraud credit card detections. Four classifiers such as Logistic Regression, K-Nearset Neighbors, Support Vector, and Decision Tree are used.<br />
+To avoid data leakage problem, under sample has to be implemented during cross validating. Otherwise, it is very likely that the trained model will be overfitted. This will prevent the test data being polluted from outside information of training data.<br />
+Therefore, Near-Miss algorithm is used during cross validation to see how it distributes the labels if we don't use these variables.<br />
+For the training dataset, Logistic regression gets the highest accuracy score of 95.4%, and decision tree is the worst. Then, the trained model has been applied to validation data, and apparently the validation score keeps growing. This suggests that an overfitting issue is resolved.<br />
 
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/confuse.png" width="1200" height="300">
+  <img src="/images/fitresult.png" width="1200" height="500">
   <div class="figcaption"><br>
   </div>
 </div>
 
-
-
-
-
-</div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/fitresult.png" width="1200" height="300">
-  <div class="figcaption"><br> Summary of VGG Model Building.<br>
+This figure shows the ROC score of four different classifiers we used. Among the four classifiers, logistic regression has the best accuracy score of 0.9792.
+<div class="fig figcenter fighighlight">
+  <img src="/images/ROCfitresult.png" width="1200" height="300">
+  <div class="figcaption"><br>
   </div>
 </div>
 
+However, we find that under sampling Average Precision-Recall Score on the original test set is 0.11. This means that the logistic can do a very good job in classification, but we do not necessarily did very well in identifying fraud transactions (positive class) even if we get a high score.
+
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/overSamp.png" width="1200" height="300">
+  <img src="/images/underSample.png" width="1200" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
 
-
-
+Next step, I am going to try the Over-Sampling method as known as SMOTE technique. SMOTE creates synthetic points from the minority class in order to reach an equal balance between the minority and majority class. SMOTE picks the distance between the closest neighbors of the minority class, in between these distances it creates synthetic points.
 </div><div class="fig figcenter fighighlight">
-  <img src="/assets/images/undersample_cm.png" width="1200" height="300">
+  <img src="/images/overSamp.png" width="1200" height="300">
   <div class="figcaption"><br> 
   </div>
 </div>
+From this figure, we find that the over sampling method indeed gets a much higher average precision recall score of 0.74 on the original test set, although it takes longer to train model because we are not removing any majority class information while instead add more minority class to balance the data.
+
+</div><div class="fig figcenter fighighlight">
+  <img src="/images/confuse.png" width="1200" height="300">
+  <div class="figcaption"><br>
+  </div>
+</div>
+
+Here, there are four confusion matrix. The top left one is logistic Regression fitted using SMOTE technique. The other three are other models fitted with under sampling method. Still, logistic regression is the best.
+
+### Neural Networks Testing Random UnderSampling Data vs OverSampling (SMOTE)
+
+Finally, a simple one hidden layer of Neural Network is used to check which of the two logistic regressions models we implemented in the (undersample or oversample(SMOTE)) has a better accuracy for detecting fraud and non-fraud transactions.<br />
+Below is the confusion matrix of a new neural network that are trained with under sampling method tested on original dataset.
+<div class="fig figcenter fighighlight">
+  <img src="/images/actual_cm.png" width="600" height="300">
+  <div class="figcaption"><br>
+  </div>
+</div>
+Below is the confusion matrix of a new neural network that are trained with over sampling method tested on original dataset.
+<div class="fig figcenter fighighlight">
+  <img src="/images/actual_cmNeural.png" width="600" height="300">
+  <div class="figcaption"><br>
+  </div>
+
+
