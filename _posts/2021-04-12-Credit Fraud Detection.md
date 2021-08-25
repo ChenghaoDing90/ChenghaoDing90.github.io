@@ -27,7 +27,7 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 #### 1. Understanding our data
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/images/class-dist-plot.png" width="400" height="300">
+  <img src="/assets/images/class-dist-plot.png" width="600" height="300">
   <div class="figcaption"><br>
   </div>
 </div>
@@ -146,10 +146,13 @@ Below is the confusion matrix of a new neural network that are trained with unde
   <div class="figcaption"><br>
   </div>
 </div>
+
 Below is the confusion matrix of a new neural network that are trained with over sampling method tested on original dataset.
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/actual_cmNeural.png" width="1200" height="300">
   <div class="figcaption"><br>
   </div>
+</div>
+
 
 
