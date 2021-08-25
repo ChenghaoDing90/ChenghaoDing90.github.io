@@ -35,7 +35,6 @@ The whole project can be found in my GitHub: <a href="https://github.com/Chengha
 <div class="fig figcenter fighighlight">
   <img src="/assets/images/trans.png" width="1200" height="300">
   <div class="figcaption"><br>
-  </div>
 </div>
 
 On one hand, this figure shows that almost all of transaction records are non-fraud, while only 0.17% are actually fraudulent. On the other hand, the transaction amount is also significantly imbalanced with most of the amount very small. In fact, the mean of all the mounts made is approximately USD 88.
