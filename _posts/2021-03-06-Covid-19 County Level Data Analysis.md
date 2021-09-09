@@ -80,7 +80,7 @@ We want to use the simple linear regression(OLS) to build the model, but we pref
 </p> -->
 
 <p align="center">
-<img src="/assets/images/COVID/stepwise.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/stepwise.png" style="width:600px;height:200px;" />
 </p>
 
 ### Generalized Additive Model
@@ -90,11 +90,11 @@ We want to use the simple linear regression(OLS) to build the model, but we pref
 
 ### Boosting model
 <p align="center">
-<img src="/assets/images/COVID/feature_importance.PNG" style="width:1200px;height:300px;" />
+<img src="/assets/images/COVID/feature_importance.png" style="width:1200px;height:300px;" />
 </p>
 
 <p align="center">
-<img src="/assets/images/COVID/gradient_boosting.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/gradient_boosting.png" style="width:600px;height:200px;" />
 </p>
 The best tunning paramter of learning rate is 0.2932461, and max_depth is 10.
 The mean sqaured error of prediction in training dataset will be 0.0354181. The most important factor that are affecting death toll is the proportion of senior people of age older than 85.
@@ -102,7 +102,7 @@ The second most important factor that are affecting prediction of death toll is 
 
 ### Random Forest
 <p align="center">
-<img src="/assets/images/COVID/random_forest.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/random_forest.png" style="width:600px;height:200px;" />
 </p>
 
 ### Conclusion
