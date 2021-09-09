@@ -33,7 +33,7 @@ Case Growth rate Pattern: k-means and spectral method
 </p>
 
 <p align="center">
-<img src="./images/cluster3.PNG" style="width:450px;height:300px;" />
+<img src="/assets/images/COVID/cluster3.PNG" style="width:450px;height:300px;" />
 </p>
 
 We find cases and health resource are highly affected by the economic situation of a county. Comparing to them, deaths and demographics do not show any obvious regional characteristics and scatter throughout the country. The classification performs well and can give identify most counties with high death rate.
@@ -42,13 +42,13 @@ We find cases and health resource are highly affected by the economic situation 
 We select our features that will contribute the most to PC1. Figure shows the contribution of each feature to PC1 for both data sets. We discard all the features whose contribution is under the red dashed line.
 
 <p align="center">
-<img src="./images/Captureggg.PNG" style="width:1200px;height:300px;" />
+<img src="/assets/images/COVID/Captureggg.PNG" style="width:1200px;height:300px;" />
 </p>
 
 ### SVM for Binary Classification
 First one with death rate more than 1/100000 and the other one with death rate less than 1/100000. We perform a non-linear classification using SVM with the radial kernel.
 <p align="center">
-<img src="./images/Captureeq.PNG" style="width:500px;height:200px;" />
+<img src="/assets/images/COVID/Captureeq.PNG" style="width:500px;height:200px;" />
 </p>
 where is a tuning parameter which accounts for the smoothness of the decision boundary and controls the variance of the model. Hence, there are two parameters in SVM function: γ and cost. 
 
@@ -56,7 +56,7 @@ A 10 fold cross-validation for a grid of gamma and cost is performed to tune the
 The best performance is found when gamma = 0.003125 and cost = 32 and the accuracy is about 0.77.
 
 <p align="center">
-<img src="./images/Captureggggg.PNG" style="width:450px;height:300px;" />
+<img src="/assets/images/COVID/Captureggggg.PNG" style="width:450px;height:300px;" />
 </p>
 
 ## Regression:One Week Death Count Prediction
@@ -64,7 +64,7 @@ Four regression methods, elastic penalized regression, random forest regression,
 
 The relationship between respond variable (amount of deaths in day t in each county) and predictor variables:
 <p align="center">
-<img src="./images/Captureeqq.PNG" style="width:800px;height:100px;" />
+<img src="/assets/images/COVID/Captureeqq.PNG" style="width:800px;height:100px;" />
 </p>
 The xk’s are the variables about demographics and health related information at county level introduced in
 Section “Data Processing".
@@ -73,28 +73,28 @@ Section “Data Processing".
 We want to use the simple linear regression(OLS) to build the model, but we prefer less variables. Thus, consider Elastic Penalty (with α = 0.5) to reduce the dimention at first. Elastic penalized method is a method combine the l1 penalty and l2 penalty.
 
 <!-- <p align="center">
-<img src="./images/Capturew.PNG" style="width:1200px;height:100px;" />
+<img src="/assets/images/COVID/Capturew.PNG" style="width:1200px;height:100px;" />
 </p>
 <p align="center">
-<img src="./images/Capturew2.PNG" style="width:600px;height:100px;" />
+<img src="/assets/images/COVID/Capturew2.PNG" style="width:600px;height:100px;" />
 </p> -->
 
 <p align="center">
-<img src="./images/stepwise.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/stepwise.PNG" style="width:600px;height:200px;" />
 </p>
 
 ### Generalized Additive Model
 <p align="center">
-<img src="./images/GAM.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/GAM.PNG" style="width:600px;height:200px;" />
 </p>
 
 ### Boosting model
 <p align="center">
-<img src="./images/feature_importance.PNG" style="width:1200px;height:300px;" />
+<img src="/assets/images/COVID/feature_importance.PNG" style="width:1200px;height:300px;" />
 </p>
 
 <p align="center">
-<img src="./images/gradient_boosting.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/gradient_boosting.PNG" style="width:600px;height:200px;" />
 </p>
 The best tunning paramter of learning rate is 0.2932461, and max_depth is 10.
 The mean sqaured error of prediction in training dataset will be 0.0354181. The most important factor that are affecting death toll is the proportion of senior people of age older than 85.
@@ -102,13 +102,13 @@ The second most important factor that are affecting prediction of death toll is 
 
 ### Random Forest
 <p align="center">
-<img src="./images/random_forest.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/random_forest.PNG" style="width:600px;height:200px;" />
 </p>
 
 ### Conclusion
 The table below presents the training MSE and RMSE for each method. We see that the Generalized Addictive Model has the smallest MSE among the four methods.
 <p align="center">
-<img src="./images/Captureff.PNG" style="width:800px;height:100px;" />
+<img src="/assets/images/COVID/Captureff.PNG" style="width:800px;height:100px;" />
 </p>
 
 We conclude that the the population and population density makes their death toll rise even faster in the county. People over 85 with heart disease are more vulnerable to this virus. Comparing to male, female are more vulnerable. It is helpful for reducing the deaths to provide adequate medical resource, such as a hospital. However, because of the population base, age density and gender density are related to social situation in this area, we think the analysis of vulnerable poeple are affected.
