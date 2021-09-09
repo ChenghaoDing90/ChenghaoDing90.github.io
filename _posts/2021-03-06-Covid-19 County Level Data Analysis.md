@@ -85,7 +85,7 @@ We want to use the simple linear regression(OLS) to build the model, but we pref
 
 ### Generalized Additive Model
 <p align="center">
-<img src="/assets/images/COVID/GAM.PNG" style="width:600px;height:200px;" />
+<img src="/assets/images/COVID/GAM.png" style="width:600px;height:200px;" />
 </p>
 
 ### Boosting model
