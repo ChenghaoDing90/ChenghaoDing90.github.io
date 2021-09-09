@@ -33,7 +33,7 @@ Case Growth rate Pattern: k-means and spectral method
 </p>
 
 <p align="center">
-<img src="/assets/images/COVID/cluster3.PNG" style="width:450px;height:300px;" />
+<img src="/assets/images/COVID/cluster3.png" style="width:450px;height:300px;" />
 </p>
 
 We find cases and health resource are highly affected by the economic situation of a county. Comparing to them, deaths and demographics do not show any obvious regional characteristics and scatter throughout the country. The classification performs well and can give identify most counties with high death rate.
