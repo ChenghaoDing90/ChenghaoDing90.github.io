@@ -29,7 +29,7 @@ demographics clustering by spectral method and health-related information cluste
 Case Growth rate Pattern: k-means and spectral method
 
 <p align="center">
-<img src="./images/Captureffff.PNG" style="width:300px;height:500px;" />
+<img src="/assets/images/COVID/Captureffff.PNG" style="width:300px;height:500px;" />
 </p>
 
 <p align="center">
