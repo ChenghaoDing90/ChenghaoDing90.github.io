@@ -24,7 +24,7 @@
 
 Five MapReducer used:
 
-<img src="./results/Screenshot from 2021-09-10 15-22-36.png"  style="width:1200px;height:600px;" />
+<img src="./assets/images/hadoop/Screenshot from 2021-09-10 15-22-36.png"  style="width:1200px;height:600px;" />
 
 <img src="./results/Screenshot from 2021-09-10 15-24-34.png"  style="width:1200px;height:600px;" />
 
