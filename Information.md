@@ -29,7 +29,7 @@ order: 2
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf">Global Heat Balance Without and With Solar Radiation Management</a></li>
-<!--     <li><a href="#">Link 2</a></li> -->
+<!--     <li><a href="#">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li> -->
 </ul>
 
 # Skills
