@@ -21,7 +21,7 @@ order: 2
 
 # Research
 <ul>
-        <li>GLOBAL HEAT BALANCE WITHOUT AND WITH SOLAR RADIATION MANAGEMENT </li>
+        <li>GLOBAL HEAT BALANCE WITHOUT AND WITH SOLAR RADIATION MANAGEMENT <a href= https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf> (Click to download my Thesis)</li>
         <li>GLOBAL HEAT BALANCE MODEL AND PROBABILITY DISTRIBUTIONS FOR ATMOSPHERIC RESPONSE</li>
     </ul>
     
