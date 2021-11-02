@@ -19,7 +19,12 @@ order: 2
         Hubei University of Science and Technology  July 2013</li>
     </ul>
 
-
+# Research
+<ul>
+        <li>GLOBAL HEAT BALANCE WITHOUT AND WITH SOLAR RADIATION MANAGEMENT </li>
+        <li>GLOBAL HEAT BALANCE MODEL AND PROBABILITY DISTRIBUTIONS FOR ATMOSPHERIC RESPONSE</li>
+    </ul>
+    
 # Skills
 
 <ul>
