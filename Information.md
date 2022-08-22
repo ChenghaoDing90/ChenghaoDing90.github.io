@@ -22,7 +22,7 @@ order: 2
 # Research
 <ul>
         <li>
-        [GLOBAL HEAT BALANCE MODEL AND PROBABILITY DISTRIBUTIONS FOR ATMOSPHERIC RESPONSE](https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf). </li>
+        [GLOBAL HEAT BALANCE MODEL AND PROBABILITY DISTRIBUTIONS FOR ATMOSPHERIC RESPONSE](https://chenghaoding90.github.io/assets/pdfs/Thesis-Chenghao-Ding[65].pdf). </li>
         <li>
         Global Heat Balance Model and Probability Distributions for Atmospheric Response </li>
 </ul>  
@@ -34,14 +34,15 @@ order: 2
 
 <ul>
         <li>
-        [Global Heat Balance Model Parameter Calibration](https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf). </li>
+        [Global Heat Balance Model Parameter Calibration](https://chenghaoding90.github.io/assets/pdfs/CAGE22R4Fronted24Jul.pdf). </li>
         <li>
-        Global Heat Balance Model and Probability Distributions for Atmospheric Response </li>
+        Global Heat Balance Model Parameter Calibration </li>
 </ul>  
 
 <ul>
-    <li><a href="https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf">Global Heat Balance Without and With Solar Radiation Management</a></li>
-<!--     <li><a href="#">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li> -->
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R2Fronted24Jul.pdf">
+Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+<!--     <li><a href="#"> Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li> -->
 </ul>
 
 # Skills
