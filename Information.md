@@ -20,12 +20,24 @@ order: 2
     </ul>
 
 # Research
-<!-- <ul>
+<ul>
         <li>
-        [Global Heat Balance Without and With Solar Radiation Management](https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf). </li>
+        [GLOBAL HEAT BALANCE MODEL AND PROBABILITY DISTRIBUTIONS FOR ATMOSPHERIC RESPONSE](https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf). </li>
         <li>
         Global Heat Balance Model and Probability Distributions for Atmospheric Response </li>
-</ul>   -->
+</ul>  
+
+<ul>
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf">Global Heat Balance Without and With Solar Radiation Management</a></li>
+<!--     <li><a href="#">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li> -->
+</ul>
+
+<ul>
+        <li>
+        [Global Heat Balance Model Parameter Calibration](https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf). </li>
+        <li>
+        Global Heat Balance Model and Probability Distributions for Atmospheric Response </li>
+</ul>  
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf">Global Heat Balance Without and With Solar Radiation Management</a></li>
