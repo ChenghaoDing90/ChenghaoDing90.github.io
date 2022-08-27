@@ -46,17 +46,17 @@ Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R1Fronted24Jul.pdf">
-Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+Climate Action Game Experiment Motivation and Role of Radiative Forcing</a></li>
 </ul>
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R5Fronted24Jul.pdf">
-Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+Extrapolations of Global Average Temperature, Sea Level Rise, and Ocean pH Change</a></li>
 </ul>
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R6Fronted24Jul.pdf">
-Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+Global Heat Balance Equation Probability Distributions and Extrapolations</a></li>
 </ul>
 
 # Skills
