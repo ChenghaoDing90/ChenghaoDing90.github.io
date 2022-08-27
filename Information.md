@@ -41,7 +41,7 @@ Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R3Fronted24Jul.pdf">
-Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+Non-anthropogenic Influences on Global Average Temperature</a></li>
 </ul>
 
 <ul>
