@@ -19,7 +19,7 @@ order: 2
         Hubei University of Science and Technology  July 2013</li>
     </ul>
 
-# Research
+# Research & Publications
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/Thesis-Chenghao-Ding[65].pdf">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li>
