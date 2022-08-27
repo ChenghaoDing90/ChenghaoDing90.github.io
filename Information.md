@@ -39,6 +39,26 @@ order: 2
 Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
 </ul>
 
+<ul>
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R3Fronted24Jul.pdf">
+Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+</ul>
+
+<ul>
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R1Fronted24Jul.pdf">
+Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+</ul>
+
+<ul>
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R5Fronted24Jul.pdf">
+Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+</ul>
+
+<ul>
+    <li><a href="https://chenghaoding90.github.io/assets/pdfs/CAGE22R6Fronted24Jul.pdf">
+Calibration and Extrapolation of a Simple Global Carbon Balance Model</a></li>
+</ul>
+
 # Skills
 
 <ul>
