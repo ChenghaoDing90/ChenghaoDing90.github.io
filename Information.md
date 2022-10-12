@@ -22,7 +22,7 @@ order: 2
 # Research & Publications
 
 <ul>
-    <li> Semi-empirical global heat balance model for probabilistic extrapolations of global average temperature</li>
+    <li> Semi-empirical global heat balance model for probabilistic extrapolations of global average temperature (Submitted to Earth System Dynamics.)</li>
 </ul>
 
 <ul>
