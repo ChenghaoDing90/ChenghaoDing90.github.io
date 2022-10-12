@@ -22,6 +22,10 @@ order: 2
 # Research & Publications
 
 <ul>
+    <li> Semi-empirical global heat balance model for probabilistic extrapolations of global average temperature</li>
+</ul>
+
+<ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/Thesis-Chenghao-Ding[65].pdf">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li>
 </ul>
 
