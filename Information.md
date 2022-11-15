@@ -10,7 +10,7 @@ order: 2
 
 <ul>
         <li>Ph.D Student in Nuclear Engineering, GPA: 3.51/4.00 <br />
-        University of Illinois at Urbana-Champaign  May 2022 (expected) </li>
+        University of Illinois at Urbana-Champaign  May 2022 </li>
         <li>Master of Science in Applied Statistics, GPA: 3.61/4.00 <br />
         University of Illinois at Urbana-Champaign  May 2020 </li>
         <li>Master of Science in Nuclear Engineering, GPA: 3.62/4.00 <br />
