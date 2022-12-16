@@ -25,9 +25,10 @@ order: 2
     <li> Semi-empirical global heat balance model for probabilistic extrapolations of global average temperature (Submitted to Earth System Dynamics.)</li>
 </ul>
 
+<!-- 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/Thesis-Chenghao-Ding[65].pdf">Global Heat Balance Model and Probability Distributions for Atmospheric Response</a></li>
-</ul>
+</ul> -->
 
 <ul>
     <li><a href="https://chenghaoding90.github.io/assets/pdfs/DING-THESIS-2018.pdf">Global Heat Balance Without and With Solar Radiation Management</a></li>
